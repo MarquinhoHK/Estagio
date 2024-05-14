@@ -55,7 +55,7 @@ header {
 
 .slick-prev, .slick-next {
     position: absolute;
-    top: calc(50% - 17.5px);
+    top: 50%;
     transform: translateY(-50%);
     z-index: 1;
     cursor: pointer;
