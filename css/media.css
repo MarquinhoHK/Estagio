@@ -9,9 +9,9 @@
 
     /* Carrossel */
     .slick-prev, .slick-next {
-        font-size: 10px;
-        width: 20px;
-        height: auto;
+        font-size: 20px;
+        width: 35px;
+        height: 35px;
     }
     
     /* Texto */
