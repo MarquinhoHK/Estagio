@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $('.autoplay').slick({
+    $('#block-banner').slick({
         slidesToShow: 1,
         infinite: true,
         autoplay: true,
@@ -7,7 +7,7 @@ $(document).ready(function(){
         dots: true,
         autoplaySpeed: 2500,
 
-        prevArrow: '<button type="button" class="slick-prev"><i class="fas fa-chevron-left"></i></button>',
-        nextArrow: '<button type="button" class="slick-next"><i class="fas fa-chevron-right"></i></button>',
+        prevArrow: '<button type="button" class="slick-prev-arrow"><i class="fas fa-chevron-left"></i></button>',
+        nextArrow: '<button type="button" class="slick-next-arrow"><i class="fas fa-chevron-right"></i></button>',
     });
 });
